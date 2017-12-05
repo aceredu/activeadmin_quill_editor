@@ -3,6 +3,7 @@ window.onload = function() {
   var default_options = {
     modules: {
       toolbar: [
+        [{ 'header': [1, 2, 3, false] }],
         ['bold', 'italic', 'underline'],
         ['link', 'blockquote', 'code-block'],
         [{ 'script': 'sub'}, { 'script': 'super' }],
@@ -10,7 +11,6 @@ window.onload = function() {
         [{ 'color': [] }, { 'background': [] }],
         ['clean'],
         // [{ 'size': ['small', false, 'large', 'huge'] }],
-        // [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
       ]
     },
     placeholder: '',
