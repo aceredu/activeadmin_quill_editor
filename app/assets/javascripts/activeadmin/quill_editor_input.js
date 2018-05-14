@@ -3,7 +3,7 @@ window.onload = function() {
   var default_options = {
     modules: {
       toolbar: [
-        [{ 'header': [1, 2, 3, false] }],
+        [{ 'header': [3, 4, 5, false] }],
         ['bold', 'italic', 'underline'],
         ['link', 'blockquote', 'code-block'],
         [{ 'script': 'sub'}, { 'script': 'super' }],
